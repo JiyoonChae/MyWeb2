@@ -61,15 +61,15 @@
 	.profile {
 		width: 80%;
 		height: 478px;
-		background-color: yellow;
 	}
 	
 	.titlebox {
 		background-color: purple;
 		display: inline-block;
-		height: 320px;
+		height: 100%;
 		margin-right: 20px;
 		top: 0px;
+		float: left;
 	}
 	.title {
 		font-size: 6.25vw;
@@ -79,17 +79,48 @@
 	}
 	
 	.contentbox {
-		display: inline-block;
+		display: inline;
 		width: 420px;
 		height: 320px;
 		background-color: pink;
 		flaot: right;
 	}
 	
-	.content {
+	.members {
 		
+		background-color: #d2628c;
+		display: block;
 		
-		
+	}
+	
+	.members-inner {
+		width: 100%;
+		height: 330px;
+		display: table;
+	}
+	
+	.innerbox{
+		width: 24.5%;
+		height: 330px;
+		background-color: gray;
+		display: inline-block;
+		border: 1px solid black;
+	}
+	
+	.innerbox1{
+		width: 24.5%;
+		height: 330px;
+		background-color: gray;
+		display: inline-block;
+		border: 1px solid black;
+	}
+	
+	.innerbox2{
+		width: 24.5%;
+		height: 330px;
+		background-color: gray;
+		display: inline-block;
+		border: 1px solid black;
 	}
 	
 	/* Footer*/
@@ -97,7 +128,10 @@
 	 width: 100%;
 	 height: 60px;
 	 background-color: #272727;
+	 position: relative;
+	 
 	}
+	
 	
 	
 </style>
@@ -241,9 +275,31 @@
 				</div>
 			</div>
 		</section>
+		<section class="members">
+			<div class="members-inner">
+				<div class="innerbox"></div>
+				<div class="innerbox"></div>
+				<div class="innerbox"></div>
+				<div class="innerbox"></div>
+			</div>
+			<div class="members-inner">
+				<div class="innerbox1"></div>
+				<div class="innerbox1"></div>
+				<div class="innerbox1"></div>
+				<div class="innerbox1"></div>
+			</div>
+			<div class="members-inner">
+				<div class="innerbox2"></div>
+				<div class="innerbox2"></div>
+				<div class="innerbox2"></div>
+				<div class="innerbox2"></div>
+			</div>
+		</section>
 	</main>
 	<!-- footer -->
 	<footer>
+		
+	
 	</footer>
 </body>
 </html>
