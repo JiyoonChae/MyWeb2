@@ -3,11 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="../css/common/reset.css" rel="stylesheet">
+<link href="../css/common/header.css" rel="stylesheet">
+<link href="../css/common/footer.css" rel="stylesheet">
 <style type="text/css">
 	.title{
 	width: 100px;
 	height: 20px;
 		margin: auto;
+		padding-top: 60px;
 	}
 	
 	#t1 {
@@ -35,6 +39,27 @@
 </style>
 </head>
 <body>
+<!-- header -->
+<header>
+		<div id="menu">
+			<a href="./board/boardList.html">
+				<div class="menu_box">
+				<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+				</div>
+		</a>
+		</div>
+		<div id="logo">
+			<a href="../index.html">
+				<img alt="" src="../images/common/btslogo.png">
+			</a>
+		</div>
+		<div id="lang_opt"></div>
+	</header>
+	
+
+<!-- board -->
 	<div class="title"><h1>NOTICE</h1></div>
 	<table id="t1">
 		<tr class="r1">
@@ -105,5 +130,30 @@
 		</tr>	
 	</table>
 	<a href="./boardWrite.html"><button>Write</button></a>
+	
+	
+	<footer>
+		<div class="footer_wrap">
+			<div class="social">			</div>
+			<div class="family_sites">
+				<select>
+					<option>BIG HIT ENTERTAINMENT</option>
+					<option>WEVERSE</option>
+				</select>
+			</div>
+			<div class="copyright">
+				<p>
+					<span style="white-space: nowrap">Copyright</span>
+				 	<span style="white-space: nowrap">©</span>
+				 	<span style="white-space: nowrap">2020</span> 
+				 	<span style="white-space: nowrap">Big</span> 
+				 	<span style="white-space: nowrap">Hit</span> 
+				 	<span style="white-space: nowrap">Entertainment</span> 
+				 	<span class="nowrap">All <span style="white-space: nowrap">Rights</span> Reserved</span> 
+				 	</p>
+			</div>
+		</div>
+	
+	</footer>
 </body>
 </html>

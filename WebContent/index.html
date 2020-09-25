@@ -4,9 +4,11 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="./css/common/reset.css" rel="stylesheet">
+<link href="./css/common/header.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 <style type="text/css">
 	/* Header */
+	/*
 	header {
 		width: 100%;
 		height: 63px;
@@ -19,7 +21,7 @@
 	#menu {
 		width: 90px;
 		height: 63px;
-		background-color: purple;
+		
 		display: inline-block;
 		float: left;
 		position: relative;
@@ -30,8 +32,12 @@
  		 height: 5px;
   		background-color: white;
   		margin: 6px 0;
-  		position: absolute;
-  		left: 50%
+	}
+	
+	.menu_box {
+		position: absolute;
+		left: 30px;
+		top: 15px;
 	}
 	
 	
@@ -43,6 +49,7 @@
 	 	display: inline-block;
 	 	position: absolute;
 	 	left: 50%;
+	 	top: 5px;
 	 }
 	 
 	 #lang_opt {
@@ -52,6 +59,8 @@
 	 	display: inline-block;
 	 	float: right;
 	 }
+	 
+	 */
 	 
 	/* Section */
 	main {
@@ -63,11 +72,11 @@
 	
 	.content-obj > img {
 		width: 80%;
-		height: 577px;
+		height: 700px;
 		box-sizing: border-box;
 		display: block;
 		margin: 0 auto;
-		margin-top: 63px;
+		padding-top: 63px;
 	}
 	
 	.intro {
@@ -223,9 +232,11 @@
 	<header>
 		<div id="menu">
 			<a href="./board/boardList.html">
+				<div class="menu_box">
 				<div class="menu_icon"></div>
 				<div class="menu_icon"></div>
 				<div class="menu_icon"></div>
+				</div>
 		</a>
 		</div>
 		<div id="logo">
@@ -400,6 +411,7 @@
 			</div>
 		</section>
 	</main>
+	
 	<!-- footer -->
 	<footer>
 		<div class="footer_wrap">
