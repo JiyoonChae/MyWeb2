@@ -7,11 +7,19 @@
 <link href="../css/common/header.css" rel="stylesheet">
 <link href="../css/common/footer.css" rel="stylesheet">
 <style type="text/css">
+
+	#board {
+		min-height: 550px;
+		width: 70%;
+		margin: 0 auto;
+		padding-top: 60px;
+	}
+	
 	.title{
 	width: 100px;
 	height: 20px;
 		margin: auto;
-		padding-top: 60px;
+		padding-top: 30px;
 	}
 	
 	#t1 {
@@ -36,13 +44,18 @@
 		text-decoration: none;
 		color: black;
 	}
+	
+	button {
+		font-size: 15px;
+		float: right;
+	}
 </style>
 </head>
 <body>
 <!-- header -->
 <header>
 		<div id="menu">
-			<a href="./board/boardList.html">
+			<a href="/MyWeb2/board/boardList.html">
 				<div class="menu_box">
 				<div class="menu_icon"></div>
 				<div class="menu_icon"></div>
@@ -51,7 +64,7 @@
 		</a>
 		</div>
 		<div id="logo">
-			<a href="../index.html">
+			<a href="/MyWeb2/index.html">
 				<img alt="" src="../images/common/btslogo.png">
 			</a>
 		</div>
@@ -60,6 +73,7 @@
 	
 
 <!-- board -->
+	<section id="board">
 	<div class="title"><h1>NOTICE</h1></div>
 	<table id="t1">
 		<tr class="r1">
@@ -129,8 +143,10 @@
 			<td>7992</td>
 		</tr>	
 	</table>
-	<a href="./boardWrite.html"><button>Write</button></a>
-	
+	<a href="./boardWrite.html">
+		<button>Write</button>
+		</a>
+	</section>
 	
 	<footer>
 		<div class="footer_wrap">
