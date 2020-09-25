@@ -15,13 +15,26 @@
 		top: 0;
 		left: 0;
 	}
+	
 	#menu {
 		width: 90px;
 		height: 63px;
 		background-color: purple;
 		display: inline-block;
 		float: left;
+		position: relative;
 	}
+	
+	.menu_icon {
+		 width: 35px;
+ 		 height: 5px;
+  		background-color: white;
+  		margin: 6px 0;
+  		position: absolute;
+  		left: 50%
+	}
+	
+	
 	 #logo {
 	 	width: 47px;
 	 	height: 63px;
@@ -208,7 +221,13 @@
 <body>
 	<!-- Header -->
 	<header>
-		<div id="menu">menu</div>
+		<div id="menu">
+			<a href="./board/boardList.html">
+				<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+		</a>
+		</div>
 		<div id="logo">
 			<a href="#">
 				<img alt="" src="./images/common/btslogo.png">
