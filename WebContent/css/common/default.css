@@ -49,8 +49,17 @@ header {
 	 	background-color: blue;
 	 	display: inline-block;
 	 	float: right;
+	 	z-index: 10;
 	 }
 	 
+.join {
+		background-color: grey;
+		color: white;
+		margin: 0 auto;
+		z-index: 100;
+		text-align: center;
+	
+}	 
 	 
 /********Footer ********************/	 
 footer {
